@@ -87,14 +87,6 @@ namespace hal {
 using namespace emscripten;
 using namespace cv;
 
-#ifdef HAVE_OPENCV_DNN
-using namespace dnn;
-#endif
-
-#ifdef HAVE_OPENCV_ARUCO
-using namespace aruco;
-#endif
-
 namespace binding_utils
 {
     template<typename classT, typename enumT>
