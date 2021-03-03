@@ -5,7 +5,7 @@ Modified to build a small opencv.js bundle.
 
 easy way to build (needs docker):
 ```
- docker run --rm --workdir /code -v "$(get-location):/code" "trzeci/emscripten:latest" python ./platforms/js/build_js.py build_wasm --build_wasm
+ docker run --rm --workdir /code -v "$(get-location):/code" "trzeci/emscripten:1.39.4-upstream" python ./platforms/js/build_js.py build_wasm --build_wasm
 ```
 
 for more info visit: https://docs.opencv.org/master/d4/da1/tutorial_js_setup.html 
